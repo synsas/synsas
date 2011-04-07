@@ -2,6 +2,8 @@
 echo "Running automated tests.\n";
 echo "Tests completed successfully.\n";
 echo "Committing files to central repository.\n";
+// git push origin
+// 
 echo "Files successfully committed to central repository.\n";
 echo "Moving files to varEnvironment.\n";
 echo "Files successfully moved to varEnvironment.\n";
