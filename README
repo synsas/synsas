@@ -7,3 +7,5 @@ I'll run it immediately from the console..not sure this is going to work.  I mig
 3.  Changed url online to explicitly call index.php
 - nope
 4. changed script
+5. added no data msg
+6. testing the writing of a local precommit hook that could be used to run unit tests
