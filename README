@@ -9,3 +9,4 @@ I'll run it immediately from the console..not sure this is going to work.  I mig
 4. changed script
 5. added no data msg
 6. testing the writing of a local precommit hook that could be used to run unit tests
+7.  2nd hook test - chmod a+x and added unix line to i9ndicate where to find php
