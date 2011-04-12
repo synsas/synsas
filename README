@@ -14,4 +14,5 @@ I'll run it immediately from the console..not sure this is going to work.  I mig
 9. pre-commit hook test was successful - now testing push to central repository
 10. installed pear; installed pear VersionControl - git - only to find I'm not sure how to execute a simple command.  Looked up php and found a simple exec-shell command and trying that
 11.  Realized I need to put the php in the post-commit file since I want to push to the repository after I commit to the local repository
+12. Had to change permissions on post-commit to add execute
 
