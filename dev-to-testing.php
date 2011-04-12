@@ -1,7 +1,9 @@
 <?php
-echo "Running automated tests.\n";
-echo "Tests completed successfully.\n";
-echo "Committing files to central repository.\n";
+// The following commented code has been placed in synsas/.git/hooks/precommit.php
+// Note that .git is a hidden folder
+//echo "Running automated tests.\n";
+//echo "Tests completed successfully.\n";
+//echo "Committing files to central repository.\n";
 // git push origin
 // 
 echo "Files successfully committed to central repository.\n";
