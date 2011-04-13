@@ -1,0 +1,75 @@
+<html>
+<body>
+<form method=POST action="process-release-options.php">
+<h1>Release Management</h1>
+<div>
+<label>Working Environment</label>
+<input type=radio name="workingEnv" id="workingEnv-Development" checked>Development</input>
+<input type=radio name="workingEnv" id="workingEnv-Test">Test</input>
+<input type=radio name="workingEnv" id="workingEnv-Staging">Staging</input>
+<input type=radio name="workingEnv" id="workingEnv-Production">Production</input>
+</div>
+
+<h4>Pull into working environment</h4>
+
+<div>
+<input type=checkbox /><label>Pull code from:</label>
+<input type=radio name="pullCodeSource" id="pullCodeSource-Development">Development</input>
+<input type=radio name="pullCodeSource" id="pullCodeSource-Test">Test</input>
+<input type=radio name="pullCodeSource" id="pullCodeSource-Staging">Staging</input>
+<input type=radio name="pullCodeSource" id="pullCodeSource-Production" checked>Production</input>
+</div>
+
+<div>
+<input type=checkbox /><label>Pull files from:</label>
+<input type=radio name="pullFilesSource" id="pullFilesSource-Development">Development</input>
+<input type=radio name="pullFilesSource" id="pullFilesSource-Test">Test</input>
+<input type=radio name="pullFilesSource" id="pullFilesSource-Staging">Staging</input>
+<input type=radio name="pullFilesSource" id="pullFilesSource-Production" checked>Production</input>
+</div>
+
+<div>
+<input type=checkbox /><label>Import db from:</label>
+<input type=radio name="importDBSource" id="importDBSource-Development">Development</input>
+<input type=radio name="importDBSource" id="importDBSource-Test">Test</input>
+<input type=radio name="importDBSource" id="importDBSource-Staging">Staging</input>
+<input type=radio name="importDBSource" id="importDBSource-Production" checked>Production</input>
+</div>
+
+<h4>Push out of working environment</h4>
+<div>
+<input type=checkbox checked/><label>Push code to:</label>
+<input type=radio name="pushCodeTarget" id="pushCodeTarget-Development">Development</input>
+<input type=radio name="pushCodeTarget" id="pushCodeTarget-Test" checked>Test</input>
+<input type=radio name="pushCodeTarget" id="pushCodeTarget-Staging">Staging</input>
+<input type=radio name="pushCodeTarget" id="pushCodeTarget-Production">Production</input>
+</div>
+<div>
+<input type=checkbox checked/><label>Push files to:</label>
+<input type=radio name="pushFilesTarget" id="pushFilesTarget-Development">Development</input>
+<input type=radio name="pushFilesTarget" id="pushFilesTarget-Test" checked>Test</input>
+<input type=radio name="pushFilesTarget" id="pushFilesTarget-Staging">Staging</input>
+<input type=radio name="pushFilesTarget" id="pushFilesTarget-Production">Production</input>
+</div>
+
+<div>
+<input type=checkbox checked/><label>Export db to:</label>
+<input type=radio name="exportDBTarget" id="exportDBTarget-Development">Development</input>
+<input type=radio name="exportDBTarget" id="exportDBTarget-Test" checked>Test</input>
+<input type=radio name="exportDBTarget" id="exportDBTarget-Staging">Staging</input>
+<input type=radio name="exportDBTarget" id="exportDBTarget-Production">Production</input>
+</div>
+<div>
+
+<h4>Misc</h4>
+<div><input type=checkbox checked/><label>Notify Team</label></input></div>
+
+
+<br />
+<div>
+<input type=SUBMIT value="GO" />
+</div>
+
+</form>
+</body>
+</html>
